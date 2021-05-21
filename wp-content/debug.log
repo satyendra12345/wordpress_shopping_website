@@ -1,0 +1,16 @@
+[07-May-2020 10:44:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_type() on null in /Users/souravchakraborty/Documents/LOCALWORDPRESS/NK/2020/WAYFAIR/wp-content/themes/twentynineteen-child/functions.php:516
+Stack trace:
+#0 /Users/souravchakraborty/Documents/LOCALWORDPRESS/NK/2020/WAYFAIR/wp-includes/class-wp-hook.php(287): func_option_valgt('')
+#1 /Users/souravchakraborty/Documents/LOCALWORDPRESS/NK/2020/WAYFAIR/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/souravchakraborty/Documents/LOCALWORDPRESS/NK/2020/WAYFAIR/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/souravchakraborty/Documents/LOCALWORDPRESS/NK/2020/WAYFAIR/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /Users/souravchakraborty/Documents/LOCALWORDPRESS/NK/2020/WAYFAIR/wp-content/themes/twentynineteen-child/functions.php on line 516
+[07-May-2020 10:45:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_type() on null in /Users/souravchakraborty/Documents/LOCALWORDPRESS/NK/2020/WAYFAIR/wp-content/themes/twentynineteen-child/functions.php:516
+Stack trace:
+#0 /Users/souravchakraborty/Documents/LOCALWORDPRESS/NK/2020/WAYFAIR/wp-includes/class-wp-hook.php(287): func_option_valgt('')
+#1 /Users/souravchakraborty/Documents/LOCALWORDPRESS/NK/2020/WAYFAIR/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/souravchakraborty/Documents/LOCALWORDPRESS/NK/2020/WAYFAIR/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/souravchakraborty/Documents/LOCALWORDPRESS/NK/2020/WAYFAIR/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /Users/souravchakraborty/Documents/LOCALWORDPRESS/NK/2020/WAYFAIR/wp-content/themes/twentynineteen-child/functions.php on line 516

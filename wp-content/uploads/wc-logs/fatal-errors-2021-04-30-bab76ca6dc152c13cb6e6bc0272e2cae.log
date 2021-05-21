@@ -1,0 +1,30 @@
+2021-04-30T08:55:03+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-30T08:55:38+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('madasuvinod3535...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2637): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-30T08:56:22+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+

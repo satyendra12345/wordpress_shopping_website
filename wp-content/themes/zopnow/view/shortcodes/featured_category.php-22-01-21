@@ -1,0 +1,86 @@
+<div class="frntre-products">
+    <div class="container mt-4">
+        <div class="row" id="featured-category-list-items">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/fruits-vegetables/oil-and-ghee/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/1.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/fruits-vegetables/dals/ ' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/2.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+                <a href="<?php echo home_url() . '/c/salt-spices-and-masala/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/3.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/packaged-foods/sauces-and-spreads/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/4.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/snacks-beverages/tea-and-coffee/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/5.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/snacks-beverages/tea-and-coffee/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/6.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/snacks-beverages/health-energy-drinks/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/7.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/snacks-beverages/fruit-juices-cold-drinks/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/8.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/fruits-vegetables/nuts-and-dry-fruit/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/9.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+                <a href="<?php echo home_url() . '/c/snacks-beverages/biscuits/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/10.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/snacks-beverages/snacks/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/11.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/snacks-beverages/snacks/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/12.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/packaged-foods/noodles-and-pasta/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/13.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/packaged-foods/breakfast-foods/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/14.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/packaged-foods/sauces-and-spreads/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/15.jpg">
+                    </a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 category-list-item-col">
+            <a href="<?php echo home_url() . '/c/packaged-foods/sweets-and-chocolates/' ?>">
+                        <img src="https://ik.imagekit.io/groc/banners/16.jpg">
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>

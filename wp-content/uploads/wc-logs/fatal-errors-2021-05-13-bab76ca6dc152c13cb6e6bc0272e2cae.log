@@ -1,0 +1,36 @@
+2021-05-13T04:14:30+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ':' in C:\xampp\htdocs\zopnow_v2\wp-content\themes\zopnow\woocommerce\checkout\payment-method.php on line 40
+
+2021-05-13T04:14:57+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ':' in C:\xampp\htdocs\zopnow_v2\wp-content\themes\zopnow\woocommerce\checkout\payment-method.php on line 40
+
+2021-05-13T10:52:35+05:30 CRITICAL Uncaught Error: Cannot use object of type WC_Stranger_Gateway as array in C:\xampp\htdocs\zopnow_v2\wp-content\themes\zopnow\bank-transfer.php:25
+Stack trace:
+#0 C:\xampp\htdocs\zopnow_v2\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\zopnow_v2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\zopnow_v2\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\zopnow_v2\wp-content\themes\zopnow\bank-transfer.php on line 25
+
+2021-05-13T10:55:42+05:30 CRITICAL Uncaught Error: Cannot use object of type WC_Stranger_Gateway as array in C:\xampp\htdocs\zopnow_v2\wp-content\themes\zopnow\bank-transfer.php:29
+Stack trace:
+#0 C:\xampp\htdocs\zopnow_v2\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\zopnow_v2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\zopnow_v2\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\zopnow_v2\wp-content\themes\zopnow\bank-transfer.php on line 29
+
+2021-05-13T10:56:16+05:30 CRITICAL Uncaught Error: Cannot use object of type WC_Stranger_Gateway as array in C:\xampp\htdocs\zopnow_v2\wp-content\themes\zopnow\bank-transfer.php:29
+Stack trace:
+#0 C:\xampp\htdocs\zopnow_v2\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\zopnow_v2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\zopnow_v2\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\zopnow_v2\wp-content\themes\zopnow\bank-transfer.php on line 29
+
+2021-05-13T12:46:03+05:30 CRITICAL Uncaught Error: Cannot use object of type WC_UPI_Payment_Gateway as array in C:\xampp\htdocs\zopnow_v2\wp-content\themes\zopnow\upi-payment.php:24
+Stack trace:
+#0 C:\xampp\htdocs\zopnow_v2\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\zopnow_v2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\zopnow_v2\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\zopnow_v2\wp-content\themes\zopnow\upi-payment.php on line 24
+

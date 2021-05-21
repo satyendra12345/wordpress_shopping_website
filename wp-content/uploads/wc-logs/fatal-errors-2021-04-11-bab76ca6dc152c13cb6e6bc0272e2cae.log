@@ -1,0 +1,9 @@
+2021-04-11T14:29:11+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1359
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): action_on_change_variant_dropdown('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1359
+

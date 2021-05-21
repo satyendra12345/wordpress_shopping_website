@@ -1,0 +1,1584 @@
+2021-04-18T06:06:42+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1359
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): action_on_change_variant_dropdown('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1359
+
+2021-04-18T06:18:44+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('ranbirbiswas 28...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T08:43:03+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('MaryDavid00844@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T08:43:59+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('MaryDavid00844@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T08:46:17+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('MaryDavid00844@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T09:08:29+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('MaryDavid00844@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T09:08:59+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('MaryDavid00844@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T09:09:02+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('MaryDavid00844@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T09:47:27+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('tanweer_md@yaho...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T12:00:45+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('mr.sivakrishna@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T12:01:39+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('mr.sivakrishna@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T12:01:39+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('mr.sivakrishna@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T12:01:44+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('mr.sivakrishna@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T12:01:44+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('mr.sivakrishna@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T12:01:45+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('mr.sivakrishna@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T12:01:45+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('mr.sivakrishna@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T12:01:45+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('mr.sivakrishna@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T12:01:45+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('mr.sivakrishna@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T12:01:46+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('mr.sivakrishna@...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T14:54:07+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('neelsandramakha...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T14:54:19+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('neelsandramakha...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T14:54:28+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('neelsandramakha...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T14:54:41+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('neelsandramakha...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T14:54:46+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('neelsandramakha...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T15:03:04+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('neelsandra')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T15:53:09+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('neelsandra')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T16:30:11+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('dasg04297@ gmai...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T16:31:34+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('dasg04297@ gmai...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T16:36:39+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('dasg04297@ gmai...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T16:45:22+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T16:48:07+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T16:51:41+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T16:52:53+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T16:57:38+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T16:58:14+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T16:58:20+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:04:07+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:05:27+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:05:49+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:06:17+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:06:41+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('R a kidwai road')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T17:06:44+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('R a kidwai road')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T17:07:08+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('R a kidwai road')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T17:07:11+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:07:14+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('R a kidwai road')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T17:07:15+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('R a kidwai road')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T17:07:15+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('R a kidwai road')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T17:07:25+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:07:41+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:08:21+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('R a kidwai road')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T17:08:37+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:08:39+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('R a kidwai road')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T17:08:44+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:08:54+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('R a kidwai road')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T17:09:59+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:10:10+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:16:35+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:16:46+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:21:32+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:26:46+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:34:23+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:40:30+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:48:08+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1359
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): action_on_change_variant_dropdown('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1359
+
+2021-04-18T17:49:55+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:49:58+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:54:26+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:56:29+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:57:05+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:58:37+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T17:59:39+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T18:02:15+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharmasp1006@gm...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:02:43+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharmasp1006@gm...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:03:17+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharmasp1006@gm...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:03:52+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharmasp1006@gm...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:04:35+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharmasp1006@gm...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:06:11+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T18:06:35+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharmasp1006@gm...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:06:43+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharmasp1006@gm...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:07:13+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T18:07:17+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharmasp1006@gm...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:10:14+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharmasp1006@gm...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:10:14+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharmasp1006@gm...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:10:14+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharmasp1006@gm...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:23:50+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('no email add.')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:24:11+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('no email id')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:24:19+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('no email id')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:24:31+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('no email id')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T18:48:02+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php:1778
+Stack trace:
+#0 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): load_discount_label_for_product_variant('')
+#1 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home/zopnow/public_html/wp-content/themes/zopnow/functions.php on line 1778
+
+2021-04-18T19:10:23+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('9465038586')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T19:10:43+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('9465038586')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T19:12:40+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharan@123')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T19:13:07+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharan@123')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T19:13:13+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharan@123')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T19:13:18+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharan@123')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T19:14:14+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sharan@123')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T19:35:51+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('gshsjsjsjaka@gm...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T19:39:20+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('sundaresh@g mai...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:08:49+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('Aniketshirsath6...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:13:31+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:13:51+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:13:56+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:07+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:09+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:10+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:10+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:10+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:22+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:27+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:36+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:36+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:36+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:37+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:37+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:37+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:37+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:38+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:39+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:44+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:44+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:44+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:44+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:45+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:14:45+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:18:07+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:18:32+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:19:23+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:19:45+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:20:06+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:21:20+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('khar')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:29:26+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('rajendra.rajput...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:29:26+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('rajendra.rajput...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:30:10+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('rajendra.rajput...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:30:11+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('rajendra.rajput...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:30:13+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('rajendra.rajput...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:31:05+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('rajendra.rajput...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:37:41+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('rajendra.rajput...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:37:42+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('rajendra.rajput...')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:40:18+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('not')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:40:32+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('not')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:40:33+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('not')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
+2021-04-18T20:40:33+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:810
+Stack trace:
+#0 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(1121): WC_Data->error('order_invalid_b...', 'Invalid billing...')
+#1 /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-order.php(337): WC_Order->set_billing_email('not')
+#2 /home/zopnow/public_html/wp-content/themes/zopnow/functions.php(2629): WC_Abstract_Legacy_Order->set_address(Array, 'billing')
+#3 /home/zopnow/public_html/wp-includes/class-wp-hook.php(287): submited_ajax_order_data('')
+#4 /home/zopnow/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/zopnow/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/zopnow/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in /home/zopnow/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 810
+
